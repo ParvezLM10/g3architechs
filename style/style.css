@@ -13,6 +13,7 @@
     border-radius: 8px;
     height: 64px;
     color:#FFF ;
+    cursor: pointer;
     font-size: 20px;
     border: 0;
     font-weight: 600;
@@ -43,7 +44,7 @@ nav>ul{
 }
 
 nav li {
-  margin-right: 30px;
+ margin-left: 30px;
   list-style: none;
   
   font-weight: 500;
@@ -72,4 +73,70 @@ nav li a{
   font-weight: 700;
   color:#131313 ;
   
+}
+
+.img-banner{
+  width: 100%;
+}
+
+
+/* responsible web */
+/* mobile divicees */
+
+@media screen and (max-width:576px) {
+
+  nav{
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .banner{
+    margin-left:0px;
+    margin-right:0px;
+  }
+
+  nav li {
+    margin-left: 0px;
+     
+   
+   }
+
+   .li-1-m{
+
+    margin-left: 30px;
+   }
+
+   .nav-ul-1{
+
+    padding-left: 0px;
+   }
+
+  
+
+
+  
+}
+
+
+/* tablet midium divces */
+
+@media screen and (min-width:576.1px) and (max-width:960px){
+
+
+  nav{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    
+  }
+
+  .banner{
+    margin-left:100px;
+    margin-right:100px;
+  }
 }
