@@ -22,6 +22,21 @@
     background-color:#FF900E ;
   }
 
+  .btn-primary-explore-more{
+    margin-top: 32px;
+    width: 180px;
+    border-radius: 8px;
+    height: 64px;
+    color:#FFF ;
+    cursor: pointer;
+    font-size: 20px;
+    border: 0;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-top: 32px;
+    background-color:#FF900E ;
+  }
+
 header{
   background-color: #FF900E1A;
  
@@ -80,10 +95,77 @@ nav li a{
 }
 
 
+/* teams section style */
+main{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.teams-section{
+  width: 100%;
+
+ 
+  display: flex;
+  align-items: center;
+}
+
+.teams-text-containar{
+  margin-top: 85px;
+}
+.teams-containar{
+  margin-top: 85px;
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 24px;
+}
+
+.teams-containar>img{
+  border-radius: 8px;
+  
+}
+
+.team-text-h2{
+  font-size: 45px;
+  color: #727272 ;
+  margin-bottom: 24px;
+}
+
+.team-samp-1{
+  font-size: 45px;
+  color:#131313 ;
+}
+.team-samp-2{
+  font-size: 45px;
+  color: #FF900E ;
+}
+
+.teams-text-containar >div{
+
+  margin-left: 73px;
+  max-width: 537px;
+}
+.team-text-description{
+  margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsible web */
 /* mobile divicees */
 
 @media screen and (max-width:576px) {
+
+
 
   nav{
     margin-left: 0px;
@@ -116,7 +198,26 @@ nav li a{
     padding-left: 0px;
    }
 
+   main{
+    margin-left: 2px;
+    margin-right: 2px;
+   }
+   .teams-section{
+    flex-direction: column;
+   }
+   .teams-containar>img {
+   
+    width: 100%;
+   }
+     .teams-containar{
+  width: 100%;
+   }
+
+   .teams-text-containar >div {
+    text-align: center;
+    margin-left: 0;
   
+}
 
 
   
@@ -139,4 +240,57 @@ nav li a{
     margin-left:100px;
     margin-right:100px;
   }
+
+
+  main{
+    margin-left: 100px;
+    margin-right: 100px;
+   }
+   .teams-section{
+    flex-direction: column;
+   }
+   .teams-containar>img {
+   
+    width: 100%;
+   }
+     .teams-containar{
+  width: 100%;
+   }
+
+   .teams-text-containar >div {
+    text-align: center;
+    margin-left: 0;
+  
+}
+
+}
+
+@media screen and (min-width:960.1px)and (max-width:1700px) {
+
+  nav{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    
+  }
+
+  .banner{
+    margin-left:100px;
+    margin-right:100px;
+  }
+
+
+  main{
+    margin-left: 100px;
+    margin-right: 100px;
+   }
+
+   .teams-containar>img {
+
+    width: 90%;
+}
+   
+  
+
+  
 }
